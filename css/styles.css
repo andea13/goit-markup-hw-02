@@ -3,8 +3,18 @@
 другорядний колір: 
 
 */
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0);
+  --section-title-color: #212121;
+  --section-subtitle-color: #212121;
+  --accent-color: #2196f3;
+  --primary-button-color: #ffffff;;
+  --primary-button-background-color: #2196f3;;
+  --secondary-button-color: #212121;
+  --secondary-button-background-color: #f5f4fa;
+}
 
-body{
+body {
   color: #757575;
   background-color: #f5f5f5;
 }
@@ -20,22 +30,80 @@ body{
 
 .list {
   list-style: none;
-
-}
-.nav-item link:hover,
-.nav-item link:focus{
-  color: #2196f3;
 }
 
-.nav-item> link{
+.site-nav .link {
   color: #212121;
 }
 
-.contacts> link{
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current{
+color: var(--accent-color);
+}
+
+.contacts .link {
   color: #757575;
 }
 
-.contacts link:hover,
-.contacts link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: #2196f3;
+}
+/* Main */
+.title {
+  color: #FFFFFF;
+  background-color: #2F303A;
+}
+
+.section {
+}
+
+.section-title {
+  color: var(--section-title-color);
+}
+
+.section-subtitle {
+  color: var(--section-subtitle-color);
+}
+
+.button {
+
+}
+
+.primary{
+  color: var(--primary-button-color);
+  background-color: var(--primary-button-background-color);
+}
+
+.secondary{
+  color: var(--secondary-button-color);
+  background-color: var(--secondary-button-background-color);
+}
+
+
+.primary .button:hover,
+.primary .button:focus {
+  color: var(--primary-button-color);
+  background-color: var(--primary-button-background-color);
+}
+
+.secondary .button:hover,
+.secondary .button:focus {
+  color: var(--primary-button-color);
+  background-color: var(--primary-button-background-color);
+}
+
+
+
+.text .button{
+color: #000;
+}
+
+
+.text.button{
+color: #000;
 }
