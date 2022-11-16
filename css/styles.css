@@ -1,0 +1,41 @@
+/* палітра основних кольорів: 
+основний колір: F5F5F5
+другорядний колір: 
+
+*/
+
+body{
+  color: #757575;
+  background-color: #f5f5f5;
+}
+
+/* стилі шапки  */
+.logo {
+  color: #000000;
+}
+
+.logo-part {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+
+}
+.nav-item link:hover,
+.nav-item link:focus{
+  color: #2196f3;
+}
+
+.nav-item> link{
+  color: #212121;
+}
+
+.contacts> link{
+  color: #757575;
+}
+
+.contacts link:hover,
+.contacts link:focus {
+  color: #2196f3;
+}
