@@ -89,7 +89,8 @@ color: var(--primary-button-color);
 }
 
 .button{
-font-family: 'Roboto', sans-serif;
+cursor: pointer;
+
 }
 
 /* section1 */
