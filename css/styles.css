@@ -76,6 +76,7 @@ background-color: var(--hero-background-color);
 
 .hero-title{
 font-weight: 900;
+font-size: 44px;
 }
 
 .hero-title, .title {
@@ -91,15 +92,18 @@ font-family: 'Roboto', sans-serif;
 .section-title {
   color: var(--section-title-color);
   font-weight: 700;
+  font-size: 36px;
 }
 
 .section-subtitle {
   color: var(--section-title-color);
   font-weight: 700;
+  font-size: 14px;
 }
 
 .section-subtitle.name{
   font-weight: 500;
+  font-size: 16px;
 }
 
 .button {
@@ -110,12 +114,14 @@ font-family: 'Roboto', sans-serif;
   color: var(--primary-button-color);
   background-color: var(--accent-color);
   font-weight: 700;
+  font-size: 16px;
 }
 
 .secondary{
   color: var(--section-title-color);
   background-color: var(--secondary-button-background-color);
   font-weight: 500;
+  font-size: 16px;
 }
 
 
@@ -136,12 +142,18 @@ font-family: 'Roboto', sans-serif;
 
 .feature{
 font-weight: 400;
+font-size: 14px;
 }
 
 
 /* section 3 */
 .our-team{
 background-color: var(--secondary-background-color); 
+}
+
+.job-title{
+font-weight: 400;
+font-size: 16px;
 }
 
 /* footer */
@@ -153,6 +165,7 @@ background-color: var(--hero-background-color);
 color: var(--primary-button-color);
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
+font-size: 26px;
 }
 
 footer{
@@ -163,13 +176,14 @@ background-color: var(--hero-background-color);
 color: var(--primary-button-color);
 font-weight: 400;
 font-style: normal;
+font-size: 14px;
 }
 
 .footer-contact{
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-style: normal;
-}
+  font-size: 14px;
 
 
 
@@ -181,7 +195,10 @@ font-style: normal;
 background-color: var(--primary-button-color);
 }
 
-
+.portfolio .section-subtitle{
+font-weight: 700;
+font-size: 18px;
+}
 
 
 .project-name {
