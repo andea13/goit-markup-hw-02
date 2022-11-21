@@ -21,7 +21,7 @@ body {
 }
 
 /* стилі шапки  */
-.logo {
+.logo-header {
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -110,6 +110,7 @@ font-family: 'Roboto', sans-serif;
 .secondary{
   color: var(--secondary-button-color);
   background-color: var(--secondary-button-background-color);
+  font-weight: 500;
 }
 
 
@@ -137,4 +138,51 @@ color: #000;
 
 .text.button{
 color: #000;
+}
+
+
+/* footer */
+.logo-footer{
+color: var(--primary-button-color);
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+}
+
+footer{
+background-color: #2F303A;
+}
+
+.physical-address{
+color: var(--primary-button-color);
+font-weight: 400;
+font-style: normal;
+}
+
+.footer-contact{
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* portfolio */
+
+/* main */
+/* section 1 */
+.project-name {
+color: #212121;
+font-weight: 700;
+}
+
+.product{
+color: #757575;
+font-weight: 400;
+}
+
+/* footer */
+
+.footer-item{
+color: rgba(255, 255, 255, 0.6);
+font-weight: 400;
 }
