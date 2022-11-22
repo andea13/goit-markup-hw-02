@@ -1,8 +1,4 @@
-/* палітра основних кольорів: 
-основний колір: F5F5F5
-другорядний колір: 
 
-*/
 :root {
   --primary-text-color: #757575;
   --section-title-color: #212121;
@@ -70,9 +66,9 @@ body {
 .contacts .link:focus {
   color: var(--accent-color);
 }
-/* Main */
+/* головна частина */
 
-/* hero section */
+/* герой */
 .hero {
   background-color: var(--hero-background-color);
 }
@@ -92,7 +88,7 @@ body {
   cursor: pointer;
 }
 
-/* section1 */
+/* секція 1 */
 
 .section-title {
   color: var(--section-title-color);
@@ -112,9 +108,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-}
-
-.button {
 }
 
 .primary {
@@ -145,7 +138,7 @@ body {
   background-color: var(--accent-color);
 }
 
-/* section 2 */
+/* секція 2 */
 
 .feature {
   font-weight: 400;
@@ -153,7 +146,7 @@ body {
   line-height: 1.7;
 }
 
-/* section 3 */
+/* секція 3 */
 .our-team {
   background-color: var(--secondary-background-color);
 }
@@ -164,7 +157,7 @@ body {
   list-style: 1.19;
 }
 
-/* footer */
+/* футер */
 .footer {
   background-color: var(--hero-background-color);
 }
@@ -197,10 +190,10 @@ footer {
   line-height: 1.71;
 }
 
-/* portfolio */
+/* портфоліо */
 
-/* main */
-/* section 1 */
+/* головна частина */
+/* секція 1 */
 .secondary {
   background-color: var(--primary-button-color);
 }
@@ -223,7 +216,7 @@ p.product {
   line-height: 1.88;
 }
 
-/* footer */
+/* футер */
 
 .footer-item {
   color: var(--footer-contact-background);
