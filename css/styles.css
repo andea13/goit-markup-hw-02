@@ -98,7 +98,6 @@ body {
 
 .section-subtitle {
   color: var(--section-title-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -140,8 +139,8 @@ body {
 /* секція 2 */
 
 .feature {
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.7;
 }
 
@@ -151,8 +150,8 @@ body {
 }
 
 .job-title {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   list-style: 1.19;
 }
 
@@ -198,17 +197,12 @@ footer {
 }
 
 .section-subtitle.portfolio {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 
-.project-name {
-  color: var(--section-title-color);
-  font-weight: 700;
-}
 
-p.product {
+.product {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
