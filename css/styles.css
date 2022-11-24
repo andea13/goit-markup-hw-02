@@ -99,8 +99,8 @@ body {
 }
 
 .primary .button:hover,
-.primary .button:focus{
-color: var(--accent-color);
+.primary .button:focus {
+  color: var(--accent-color);
 }
 
 /* секція 1 */
@@ -207,8 +207,8 @@ footer {
 }
 
 .footer-contact:hover,
-.footer-contact:focus{
-color: var(--accent-color);
+.footer-contact:focus {
+  color: var(--accent-color);
 }
 
 /* портфоліо */
@@ -227,7 +227,6 @@ color: var(--accent-color);
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
 
 .product {
   color: var(--primary-text-color);
