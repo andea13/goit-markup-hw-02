@@ -2,7 +2,8 @@
   --primary-text-color: #757575;
   --section-title-color: #212121;
   --accent-color: #2196f3;
-  --primary-button-color: #ffffff;
+  --component-active-color:#188CE8;
+  --primary-button-color: #FFFFFF;
   --secondary-button-background-color: #f5f4fa;
   --secondary-background-color: #f5f5f5;
   --logo-color: #000000;
@@ -80,6 +81,7 @@ body {
 }
 
 .hero-title {
+  color: var(--primary-button-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -88,20 +90,13 @@ body {
   text-transform: uppercase;
 }
 
-.hero-title,
-.title {
-  color: var(--primary-button-color);
-}
-
 .button {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
 
-.primary .button:hover,
-.primary .button:focus {
-  color: var(--accent-color);
-}
+
+
 
 /* секція 1 */
 
@@ -124,9 +119,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-transform: capitalize;
 }
 
-.primary {
+.primary-button {
   color: var(--primary-button-color);
   background-color: var(--accent-color);
   font-family: "Roboto", sans-serif;
@@ -135,27 +131,18 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
+  cursor: pointer;
 }
 
-.secondary {
-  color: var(--section-title-color);
-  background-color: var(--secondary-button-background-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
+
+.primary-buuton:hover,
+.primary-button:focus{
+  background-color: var(--component-active-color);
 }
 
-.primary .button:hover,
-.primary .button:focus {
-  color: var(--primary-button-color);
-  background-color: var(--accent-color);
-}
-
-.secondary .button:hover,
-.secondary .button:focus {
-  color: var(--primary-button-color);
-  background-color: var(--accent-color);
+.secondary-button:hover,
+.secondary-button:focus {
+background-color: var(--accent-color);
 }
 
 /* секція 2 */
@@ -215,17 +202,28 @@ footer {
 
 /* головна частина */
 /* секція 1 */
-.secondary {
+
+.secondary-button {
+  color: var(--section-title-color);
   background-color: var(--secondary-button-background-color);
-  letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
   text-align: center;
-  border: none;
+  cursor: pointer;
+  
 }
+
 
 .section-subtitle.portfolio {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-transform: capitalize;}
+
+.transform-except{
+text-transform: uppercase;
 }
 
 .product {
