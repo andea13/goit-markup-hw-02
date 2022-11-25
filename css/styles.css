@@ -135,14 +135,9 @@ body {
   cursor: pointer;
 }
 
-.primary-buuton:hover,
+.primary-button:hover,
 .primary-button:focus {
   background-color: var(--component-active-color);
-}
-
-.secondary-button:hover,
-.secondary-button:focus {
-  background-color: var(--accent-color);
 }
 
 /* секція 2 */
@@ -217,6 +212,12 @@ body {
   text-align: center;
   border: none;
   cursor: pointer;
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+  color: var(--primary-button-color);
+  background-color: var(--accent-color);
 }
 
 .section-subtitle.portfolio {
